@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Interface1">
+
+    <ImageView
+        android:layout_width="309dp"
+        android:layout_height="140dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+
+        android:src="@drawable/judulgame"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="74dp" />
+
+    <ImageView
+        android:id="@+id/tombolMain"
+        android:layout_width="268dp"
+        android:layout_height="119dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="410dp"
+
+        android:src="@drawable/tombolmain"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="331dp" />
+
+    <ImageView
+        android:id="@+id/tombolPetunjuk"
+        android:layout_width="268dp"
+        android:layout_height="119dp"
+        android:layout_marginTop="480dp"
+        android:layout_marginLeft="70dp"
+
+        android:src="@drawable/petunjuk"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="433dp" />
+
+    <ImageView
+        android:id="@+id/tombolKeluar"
+        android:layout_width="268dp"
+        android:layout_height="119dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="550dp"
+
+        android:src="@drawable/tombolkeluar"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="539dp" />
+
+</RelativeLayout>

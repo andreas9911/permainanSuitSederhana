@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Interface2">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/deskripsipetunjukk" />
+
+
+    <ImageView
+        android:layout_width="268dp"
+        android:layout_height="119dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="50dp"
+
+        android:src="@drawable/petunjukfinal" />
+
+    <ImageView
+        android:id="@+id/tombolMenu"
+        android:layout_width="158dp"
+        android:layout_height="69dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="1dp"
+        android:src="@drawable/tombolmenu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="554dp" />
+
+</RelativeLayout>

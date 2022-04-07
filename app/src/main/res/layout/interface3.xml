@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Interface3">
+
+    <TextView
+        android:layout_width="309dp"
+        android:layout_height="140dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="60dp"
+        android:text="Anda"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="54dp" />
+
+    <TextView
+        android:layout_width="268dp"
+        android:layout_height="119dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="300dp"
+        android:text="Komputer"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="345dp" />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="309dp"
+        android:layout_height="140dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="504dp"
+        android:text="Score: Anda 0 Komputer 0"
+        android:textAlignment="center"
+        android:textSize="15dp"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="54dp" />
+
+    <ImageView
+        android:id="@+id/anda"
+        android:layout_width="306dp"
+        android:layout_height="263dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="45dp"
+
+        android:src="@drawable/batu"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="433dp" />
+
+    <ImageView
+        android:id="@+id/komputer"
+        android:layout_width="306dp"
+        android:layout_height="263dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="284dp"
+
+        android:src="@drawable/gunting"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="539dp" />
+
+    <Button
+        android:id="@+id/TombolBatu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="534dp"
+        android:backgroundTint="@color/warnaTombol"
+        android:text="Batu"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/TombolGunting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="155dp"
+        android:layout_marginTop="534dp"
+        android:backgroundTint="@color/warnaTombol"
+        android:text="Gunting"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/TombolKertas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="534dp"
+        android:backgroundTint="@color/warnaTombol"
+        android:text="Kertas"
+        android:textColor="@color/white"/>
+
+    <ImageView
+        android:id="@+id/tombolMenu"
+        android:layout_width="158dp"
+        android:layout_height="69dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="1dp"
+        android:src="@drawable/tombolmenu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="554dp" />
+
+</RelativeLayout>
